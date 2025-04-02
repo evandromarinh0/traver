@@ -12,5 +12,6 @@ export const Button = styled.TouchableOpacity`
 
 export const Title = styled.Text`
   color: #fff;
+  font-family: "Nunito-Medium";
   font-size: 24px;
 `;
