@@ -4,6 +4,8 @@ export const lightTheme = {
     background: "#FFFFFF",
     secondaryBackground: "#fbfbfb",
     primary: "#007aff",
+    habitCheckBox: "#34c759",
+    habitBox: "#edfff4"
   },
   fonts: {
     bold: 'Nunito-Bold',

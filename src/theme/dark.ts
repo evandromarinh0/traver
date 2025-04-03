@@ -1,9 +1,11 @@
 export const darkTheme = {
   colors: {
-    text: "#f5f5f5",  
-    background: "#121212", 
-    secondaryBackground: "#1e1e1e", 
-    primary: "#0a84ff", 
+    text: "#2f2f2f",
+    background: "#FFFFFF",
+    secondaryBackground: "#fbfbfb",
+    primary: "#007aff",
+    habitCheckBox: "#fffa44",
+    habitBox: "#ff44"
   },
   fonts: {
     bold: 'Nunito-Bold',
