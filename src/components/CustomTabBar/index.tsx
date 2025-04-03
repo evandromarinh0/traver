@@ -1,6 +1,9 @@
 import React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import HomePage from '../../screens/HomePage';
+import StatsPage from '../../screens/StatsPage';
+import ConfigPage from '../../screens/ConfigPage';
+
 import {Home, Activity, Settings} from 'lucide-react-native';
 import { useTheme } from '../../context/ThemeContext';
 
@@ -30,14 +33,14 @@ const BottomTabs = () => {
       />
       <Tab.Screen
         name="Stats"
-        component={HomePage}
+        component={StatsPage}
         options={{
           tabBarIcon: ({color}) => <Activity size={24} color={color} />,
         }}
       />
       <Tab.Screen
         name="Settings"
-        component={HomePage}
+        component={ConfigPage}
         options={{
           tabBarIcon: ({color}) => <Settings size={24} color={color} />,
         }}
