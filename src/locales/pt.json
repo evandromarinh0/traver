@@ -1,4 +1,5 @@
 {
     "welcome": "Olá",
-    "date_format": "{{date, DD MMMM YYYY}}"
+    "date_format": "{{date, DD MMMM YYYY}}",
+    "habits_completed": "{{count}} de {{total}} hábitos \nfinalizados hoje!"
   }

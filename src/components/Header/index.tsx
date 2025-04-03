@@ -17,7 +17,7 @@ const DateText = styled.Text`
 const Greeting = styled.Text`
   color: ${props => props.theme.colors.text};
   font-size: 24px;
-  font-weight: bold;
+  font-family: ${props => props.theme.fonts.bold};
 `;
 
 const Highlight = styled.Text`
