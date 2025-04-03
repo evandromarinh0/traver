@@ -3,6 +3,7 @@ import { Text, Button } from "react-native";
 import styled from "styled-components/native";
 import { lightTheme } from "../../theme";
 import { useTheme } from "../../context/ThemeContext";
+import Header from "../../components/Header";
 
 const Container = styled.View`
   flex: 1;
@@ -21,6 +22,7 @@ const Home = () => {
 
   return (
     <Container>
+      <Header name={"luana"}/>
       <ThemedText>O tema atual é {theme === lightTheme ? "Claro" : "Escuro"}</ThemedText>
       <Button title="Alternar Tema" onPress={toggleTheme} />
     </Container>

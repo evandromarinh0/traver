@@ -1,0 +1,4 @@
+{
+    "welcome": "Hello",
+    "date_format": "{{date, DD MMMM YYYY}}"
+  }

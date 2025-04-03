@@ -9,7 +9,7 @@ export function Routes() {
     <NavigationContainer>
       <Stack.Navigator screenOptions={{ headerShown: false}}   initialRouteName="Main">
         <Stack.Screen name="Main" component={BottomTabs} />
-        {/*qualquer outra pagina, so adicionr aqui em baixo*/}
+        {/*qualquer outra pagina, so adicionar aqui em baixo*/}
       </Stack.Navigator>
     </NavigationContainer>
     
