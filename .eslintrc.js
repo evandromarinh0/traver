@@ -3,5 +3,6 @@ module.exports = {
   extends: '@react-native',
   rules: {
     'eol-last': 'off',
+    'quotes': ['single', 'double'],
   },
 };
