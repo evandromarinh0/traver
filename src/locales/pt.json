@@ -1,5 +1,28 @@
 {
     "welcome": "Olá",
     "date_format": "{{date, DD MMMM YYYY}}",
-    "habits_completed": "{{count}} de {{total}} hábitos \nfinalizados hoje!"
+    "habits_completed": "{{count}} de {{total}} hábitos \nfinalizados hoje!",
+    "createHabitTitle": "Criar Nova Meta de Hábito",
+    "yourGoal": "Seu Objetivo",
+    "yourGoalPlaceholder": "Digite seu objetivo...",
+    "habitName": "Nome do Hábito",
+    "habitNamePlaceholder": "Digite o hábito...",
+    "period": "Período",
+    "habitType": "Tipo de Hábito",
+    "createNew": "Criar Novo",
+     "periods": {
+    "7": "1 Semana (7 Dias)",
+    "14": "2 Semanas (14 Dias)",
+    "30": "1 Mês (30 Dias)",
+    "90": "3 Meses (90 Dias)"
+  },
+  "habitTypes": {
+    "everyday": "Todos os Dias",
+    "weekdays": "Dias Úteis (Seg–Sex)",
+    "weekends": "Fins de Semana (Sáb–Dom)",
+    "custom_days": "Dias Personalizados",
+    "once_a_week": "Uma vez por Semana",
+    "twice_a_week": "Duas vezes por Semana",
+    "monthly": "Uma vez por Mês"
+  }
   }

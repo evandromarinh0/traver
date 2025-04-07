@@ -5,7 +5,10 @@ export const lightTheme = {
     secondaryBackground: "#fbfbfb",
     primary: "#007aff",
     habitCheckBox: "#34c759",
-    habitBox: "#edfff4"
+    habitBox: "#edfff4",
+    black: "#000",
+    border: "#E0E0E0",
+
   },
   fonts: {
     bold: 'Nunito-Bold',
