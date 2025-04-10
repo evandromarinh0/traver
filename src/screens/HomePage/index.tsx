@@ -7,6 +7,8 @@ import {ToggleThemeButton} from '../../components/ToggleThemeButton';
 import HabitBox from '../../components/HabitBox';
 import {AddHabitModal} from '../../components/AddHabitModal';
 import { PrimaryButton } from '../../components/PrimaryButton';
+import { Title } from '../../components/Title';
+import { useNavigation } from '@react-navigation/native';
 
 const Container = styled.View`
   flex: 1;
@@ -22,6 +24,7 @@ const ThemedText = styled.Text`
 
 const Home = () => {
   const [visible, setVisible] = useState(false);
+  const navigation = useNavigation<any>();
   return (
     <Container>
       <ToggleThemeButton />
@@ -34,6 +37,7 @@ const Home = () => {
         onSubmit={() => setVisible(false)}
       />
       <PrimaryButton title={"Add habit"} onPress={() => setVisible(true)}/>
+    <Title title={"Habits"} onPress={() => navigation.navigate("Habits" as never, {} as never)}/>    
     </Container>
   );
 };

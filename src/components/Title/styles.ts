@@ -18,7 +18,7 @@ export const PrimaryText = styled.Text`
 
 export const SecondaryText = styled.Text`
   font-family: ${props => props.theme.fonts.bold};
-  color: ${props => props.theme.colors.blue};
+  color: ${props => props.theme.colors.primary};
   font-size: 14px;
   margin-right: 8px;
 `;
