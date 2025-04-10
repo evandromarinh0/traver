@@ -9,6 +9,7 @@ import {AddHabitModal} from '../../components/AddHabitModal';
 import { PrimaryButton } from '../../components/PrimaryButton';
 import { Title } from '../../components/Title';
 import { useNavigation } from '@react-navigation/native';
+import HabitGoalsBox from '../../components/HabitGoalsBox';
 
 const Container = styled.View`
   flex: 1;
@@ -31,6 +32,7 @@ const Home = () => {
       <Header name={'luana'} />
       <HabitProgressCard progress={70} completedHabits={3} totalHabits={5} />
       <HabitBox isChecked />
+      <HabitGoalsBox goalName='Finish 5 Philosophy Books' often='Everyday' totalSteps={7} currentStep={4} />
       <AddHabitModal
         visible={visible}
         setVisible={setVisible}
